@@ -1,0 +1,50 @@
+----------------------------------
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The program narrowed down the location of each difference down to three lines or less.  Of course, this a major timesaver which grows tremendously as the size of the files increase.
+
+----------------------------------
+
+How could having access to the entire history of a file, make you a more effecient programmer in the long term?
+
+First, knowing the past can be recovered at anytime, allows me to write code freely, without the need to concern myself with the worry of making mistakes and breaking a program that was working fine at one point.  This allows me to be more creative and write code at a faster pace.
+
+Secondly, if I do break a program, the time used to discover my errors is greatly reduced by having the ability to access previous versions and compare versions.
+
+Adding to the first point, version control encourages experimentation to add new features or play out what-if scenarios.
+
+----------------------------------
+What do you think the pros and cons are of manually choosing when to make a commit, like you do in Git, vs having versions automatically save like Google Docs does?
+
+Aside from a novice who isn't wise in his frequency of commits, or simply doesn't commit at all, the biggest, and possibly the only advantage of automatic commits, is in the case of a perosn forgetting to commit.
+Other than that, it semes all advantages lie with manual commits.
+
+----------------------------------
+
+Why do you think some version control systems like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Saving multiple files in one commit is likely to be used repeatedly with great benefit while writing code.  The frequency of usage warrants this feature to be included in version control system designed for code writing.
+
+Other version control systems target other types of documents or projects which may use a feature such as this one, very little or not at all.  It doesn't make sense to provide functionality in a version control system, or any other program for that matter, which is expected to to be used very little or not at all.
+
+Applications target specific problems or needs.  Attempting to address too broad of an audience in one single solution seems to steer away from modularity, and introduces unecessary complexity.  Staying within the scope of a particular discipline when designing a solution is smart and practical--the right tool for the job.
+
+
+HOW CAN YOU USE THE COMMANDS GIT LOG AND GIT DIFF TO VIEW THE HISTORY OF FILES?
+
+Git log is used to view the messages and ID's of all the commits.  The message gives a description of the the commit.  The commit of interest is chosen based on the message.  The diff command is used to compare the two commits.  The diff identifies the two commits by their ID's.
+The ID preceding the ID of interest is copied and pasted as the first argument to the diff command.  The ID of interest is copied and pasted as the second argument to the diff command.  Diff lists the additions and deletions that were performed in the commit of interest.
+
+
+HOW MIGHT USING VERSION CONTROL MAKE YOU MORE CONFIDENT TO MAKE CHANGES THAT COULD BREAK SOMETHING?
+
+A few videos ago I realized the value of Git.  I'm kicking myself for not finding out about Git years ago.  I've written about ten significant programs among many others in the last fifteen years.  Although I used interpreted languages, mostly vbs and vba, I still spent months on several of the projects.  I created my own version control system, just like Carolyn mentioned, with a plethora of copies and branches, which was rather clumsy to manage.  Git is exactly what I needed--a version control application designed specifically for those writing code.
+To answer the question (I actually answered it a few questions ago), Git is like an insurance policy where I can drive down the code highway in my keyboardmobile, and not have to worry about having an accident.  And since an accident won't cause my premiums to rise, I can even drive a little recklessly.
+
+
+NOW THAT YOU HAVE YOUR WORKSPACE SETUP, WHAT DO YOU WANT TO TRY USING GIT FOR?
+
+Maybe a vbs project.
+
+
