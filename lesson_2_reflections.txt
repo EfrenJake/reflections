@@ -1,0 +1,13 @@
+WHAT HAPPENS WHEN YOU INITIALIZE A REPOSITORY?  WHY DO YOU NEED TO DO IT?
+
+Git places a hidden subdirectory named .git into the target directory.
+Initializing a directory is necessary for Git to create a repository because Git utilizes the files within .git to perform its functions, e.g.create commits, track files, etc
+
+
+HOW IS THE STAGING AREA DIFFERENT FROM THE WORKING DIRECTORY AND THE REPOSITORY?  WHAT VALUE DO YOU THINK IT OFFERS?
+
+The working directory contains all the files in the repository.  The staging area contains only the files that are chosen to be tracked when a commit is created.  The repository is the logical group of all files, and their state, at given points in time (commits).
+
+Obviously, the repository and commits are the essence of Git regarding version control.  The staging area offers another measure of control, in that files can be slated for inclusion into the history of the commits, when the user deems necessary.
+
+
