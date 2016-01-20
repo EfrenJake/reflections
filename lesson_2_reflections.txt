@@ -16,3 +16,6 @@ HOW CAN YOU USE THE STAGING AREA TO MAKE SURE YOU HAVE ONE COMMIT PER LOGICAL CH
 Using diff --staged, the staging area can be checked as a last step right before committing a change.  At this point, a last check can be made to insure one logical change is being committed.
 
 
+WHAT ARE SOME SITUATIONS WHERE BRANCHES MIGHT BE HELPFUL IN KEEPING YOUR HISTORY ORGANIZED?  HOW WOULD BRANCHES HELP?
+
+Branches would be helpful when trying out new featurs, making different versions for different languages
