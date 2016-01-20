@@ -11,3 +11,8 @@ The working directory contains all the files in the repository.  The staging are
 Obviously, the repository and commits are the essence of Git regarding version control.  The staging area offers another measure of control, in that files can be slated for inclusion into the history of the commits, when the user deems necessary.
 
 
+HOW CAN YOU USE THE STAGING AREA TO MAKE SURE YOU HAVE ONE COMMIT PER LOGICAL CHANGE?
+
+Using diff --staged, the staging area can be checked as a last step right before committing a change.  At this point, a last check can be made to insure one logical change is being committed.
+
+
