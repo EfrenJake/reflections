@@ -19,3 +19,10 @@ Using diff --staged, the staging area can be checked as a last step right before
 WHAT ARE SOME SITUATIONS WHERE BRANCHES MIGHT BE HELPFUL IN KEEPING YOUR HISTORY ORGANIZED?  HOW WOULD BRANCHES HELP?
 
 Branches would be helpful when trying out new featurs, making different versions for different languages
+
+
+HOW DO THE DIAGRAMS HELP YOU VISUALIZE THE BRANCH STRUCTURE?
+
+By providing an image I can see with my eyes.
+
+
