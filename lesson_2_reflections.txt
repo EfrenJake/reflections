@@ -26,3 +26,16 @@ HOW DO THE DIAGRAMS HELP YOU VISUALIZE THE BRANCH STRUCTURE?
 By providing an image I can see with my eyes.
 
 
+WHAT IS THE RESULT OF MERGING TWO BRANCHES TOGETHER?  WHY DO WE REPRESENT IT IN THE DIAGRAM THE WAY WE DO?
+
+The commits of each branch are combined, and the result is one master branch.  The merge is represented with the diagram to clarify understanding of
+what is taking place in the merge.  The diagram shows a picture of concepts, such as the parents of the branches, which makes it much easier to understand.
+
+
+WHAT ARE THE PROS AND CONS OF GIT'S AUTOMATIC MERGING VS ALWAYS DOING MERGES MANUALLY?
+
+Of course, automatic merging has its obvious advantage, which is speed and convenience.  The negative side to auto merging would be the possible unintended result, where unwanted items are kept, or wanted items are removed.
+Manual merges would eliminate the negative side of auto merging due to the fact that the user is manually determining what is included and what is excluded, but the process, I imagine, could take forever, which is big negative.
+
+Even with the possible unintended results of auto merging, which hopefully are few and far in between, the results can manually be corrected after the fact.  But in light of the enormous time savings offerred by auto merging, I see the advantages outweighing the disadvantages by a wide margin.
+
