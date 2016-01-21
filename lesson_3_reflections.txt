@@ -8,3 +8,16 @@ WHY MIGHT YOU WANT TO ALWAYS PULL CHANGES MANUALLY RATHER THAN HAVING GIT AUTOMA
 To prevent suprise changes in the midst of working on a modification.
 
 
+DESCRIBE THE DIFFERENCES BETWEEN FORKS, CLONES, AND BRANCHES.  WHEN WOULD YOU USE ONE INSTEAD OF ANOTHER?
+
+A clone is a copy of a repository.  The clone function is used primarily to copy a remote repository on to a local machine, or local machine to another local machine.
+
+A fork is basically a clone.  The difference with a fork is that it clones repositories soley on the GitHub website.  Fork is typically used to clone a repository from someone elses GitHub account to their own GitHub account.  A fork is only possible on the GitHub website.  For example, if a user wishes to contribute and make changes to a repository found on GitHub, this may not be allowed.  In this case a fork can be used to duplicate the repository into their own account, and then changes can be made to the copy without affecting the original repository.
+
+A Branch is a label which is placed on the most recent commit, or series of commits.  It represents the tip of the series back to its first ancestor.  The series is traced by following each parent.
+A Branch is used to denote a series of edits with a common goal or feature.
+
+For example:
+A word processor application could be under development.  The branch labeled "Master" represents all the commits (steps, edits, modifications) aimed at the goal of completing the "Word Processor Program".  Branching off the Main branch could be an "Email Feature".  The email feature will still work with the word processor program, but the branch will be focused on developing the email feature.  Hence, the branch named "Email Feature" represents all the commits(steps, edits, modifications) aimed at the goal of completing the "Email Feature".
+
+
