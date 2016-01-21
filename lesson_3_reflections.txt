@@ -1,3 +1,10 @@
 WHEN WOULD YOU WANT TO USE A REMOTE REPOSITORY RATHER THAN KEEPING ALL WORK LOCAL?
 
 If others will be working on the repository, or if I want to simply share it with the public.
+
+
+WHY MIGHT YOU WANT TO ALWAYS PULL CHANGES MANUALLY RATHER THAN HAVING GIT AUTOMATICALLY STAY UP-TO-DATE WITH YOUR REMOTE REPOSITORY?
+
+To prevent suprise changes in the midst of working on a modification.
+
+
