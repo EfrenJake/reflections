@@ -21,3 +21,8 @@ For example:
 A word processor application could be under development.  The branch labeled "Master" represents all the commits (steps, edits, modifications) aimed at the goal of completing the "Word Processor Program".  Branching off the Main branch could be an "Email Feature".  The email feature will still work with the word processor program, but the branch will be focused on developing the email feature.  Hence, the branch named "Email Feature" represents all the commits(steps, edits, modifications) aimed at the goal of completing the "Email Feature".
 
 
+WHAT IS THE BENEFIT OF HAVING A COPY OF THE LAST KNOWN STATE OF THE REMOTE STORED LOCALLY?
+
+Conflicts can be examined before merging branches.  Also, if no internet access is available, the stored copy would reflect accurately to the remote repository as of the last pull.
+
+
