@@ -26,3 +26,10 @@ WHAT IS THE BENEFIT OF HAVING A COPY OF THE LAST KNOWN STATE OF THE REMOTE STORE
 Conflicts can be examined before merging branches.  Also, if no internet access is available, the stored copy would reflect accurately to the remote repository as of the last pull.
 
 
+HOW WOULD YOU COLLABORATE WITHOUT USING GIT OR GITHUB?  WHAT WOULD BE EASIER, AND WHAT WOULD BE HARDER?
+
+Now that I have been exposed to professional version control, I would probably seek out another high level version control system, if I wasn't able to use Git.  In the past, I would have used my own crude system of version control, patching it together with email, maybe google docs, and who knows what else.
+
+Because I am so impressed by Git and GitHub, and how well it addresses the specific needs of programmers, and the development of projects, I would venture to say that any other system would be a more difficult solution overall.
+
+
