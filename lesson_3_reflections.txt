@@ -33,3 +33,18 @@ Now that I have been exposed to professional version control, I would probably s
 Because I am so impressed by Git and GitHub, and how well it addresses the specific needs of programmers, and the development of projects, I would venture to say that any other system would be a more difficult solution overall.
 
 
+WHEN WOULD YOU WANT TO MAKE CHANGES IN A SEPARATE BRANCH RATHER THAN DIRECTLY IN MASTER?  WHAT BENEFITS DOES EACH APPROACH HAVE?
+
+Because of the added overhead of branching out, in a collaborative environment, I would tend to be very selective on what I choose to branch out on.  Attempting to come up with guidelines as to what would warrant a branch and what would not, seems rather difficult at this time.
+Enjoying the freedom benefits of branching, but yet considering the additional work involved, puts me in a bittersweet situation.
+
+Without overthinking it too much, I would probably start off with a basic rule:  If changes are few and small, with little risk of breaking the master; then work directly on the master.  Otherwise, create a branch.
+
+In actuality, as with other disciplines in my life, experience has shown to be the most definitive teacher.  With that, I believe working with GitHub in a collaborative environment, over time, would surely give me the best information on which to base my tailor made criteria for when, and when not to branch.
+
+But the question still remains in my mind: What about the etiquette/policy of collaboration?  I think I may be missing a piece of the puzzle here.  How can one make changes directly on the master, push them up to GitHub, and not defeat the review process of collaboration?
+
+I would definitely want to inquire on the methods used by those who have experience with GitHub.
+
+This was probalby the most difficult question for me in this course.
+
